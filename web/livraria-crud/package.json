@@ -1,0 +1,24 @@
+{
+  "name": "livraria-crud",
+  "version": "1.0.0",
+  "description": "Projeto CRUD para livraria utilizando Firebase e Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "livraria",
+    "crud",
+    "firebase",
+    "node.js"
+  ],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "firebase-admin": "^12.7.0"
+  }
+}

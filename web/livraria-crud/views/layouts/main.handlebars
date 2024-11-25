@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{title}}</title>
+
+  <!-- Firebase SDK (Compatível com navegadores) -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyAerYWySAs3snFsbKO1T_9vRPxf4RUml04",
+      authDomain: "livraria-crud.firebaseapp.com",
+      projectId: "livraria-crud",
+      storageBucket: "livraria-crud.firebasestorage.app",
+      messagingSenderId: "146279475891",
+      appId: "1:146279475891:web:e9dd0b9746e428bb191ec6"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <style>
+    .navbar-brand {
+      width: 100%;
+      text-align: center;
+    }
+
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Livraria XYZ</a>
+    </div>
+  </nav>
+
+  <header>
+    <h1>{{header}}</h1>
+  </header>
+  <main>
+    {{{body}}} <!-- Aqui será renderizado o conteúdo das views -->
+  </main>
+</body>
+
+</html>

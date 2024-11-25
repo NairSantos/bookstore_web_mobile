@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "146279475891",
+    "project_id": "livraria-crud",
+    "storage_bucket": "livraria-crud.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146279475891:android:ba3ae792f1f9107d191ec6",
+        "android_client_info": {
+          "package_name": "com.example.livraria"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCO5glSF_xCVu_eTvcmAgdEorQWyb_IzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
